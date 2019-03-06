@@ -1,0 +1,35 @@
+{
+  "name": "popover-element-example",
+  "version": "1.0.0",
+  "description": "Example of a popover implemented as a custom element.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "serve .",
+    "lint": "eslint .",
+    "prepare": "pika-web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamvig/popover-element-example.git"
+  },
+  "author": "Adam Vigneaux <adam@adamvig.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamvig/popover-element-example/issues"
+  },
+  "homepage": "https://github.com/adamvig/popover-element-example#readme",
+  "devDependencies": {
+    "@pika/web": "^0.3.0"
+  },
+  "dependencies": {
+    "@github/details-menu-element": "^0.9.0",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "lit-element": "^2.0.1",
+    "serve": "^10.1.2"
+  }
+}
